@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600);
+* {
+  font-family: "Poppins", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+*:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+  .cards {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.card {
+  padding: 2em 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0 15px 30px rgba(131, 166, 210, 0.5);
+          box-shadow: 0 15px 30px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-bottom: 2em;
+}
+
+.card__header {
+  margin-bottom: 2em;
+}
+
+.card__title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #4c4e61;
+  margin-bottom: 0.25em;
+}
+
+.card__text {
+  font-size: 13px;
+  color: #4c4e61;
+  line-height: 23px;
+}
+
+.card__img {
+  width: 100px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding: 1em;
+}
+
+.card--first {
+  border-top: 5px solid #45d3d3;
+}
+
+.card--second {
+  border-top: 5px solid #ea5353;
+}
+
+.card--third {
+  border-top: 5px solid #fcaf4a;
+}
+
+.card--fourth {
+  border-top: 5px solid #549ef2;
+}
+/*# sourceMappingURL=style.css.map */
